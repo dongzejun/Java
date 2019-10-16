@@ -155,5 +155,4 @@ public class TestReflectAction {
         mainMethod.invoke(aClass.getConstructor().newInstance(), (Object) new String[]{"a"});
     }
 
-
 }
